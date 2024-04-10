@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#kalvium-logo{
+    width: 250px;
+}
+
+.top-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 50px;
+}
+
+.right-container{
+    
+}
+
+span{
+    font-size: 30px;
+}
+
+svg{
+    position: relative;
+    top: 7px;
+}
+
+.svg-container{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #D63231;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    bottom: 5px;
+}
+
+.right-container h3{
+    display: inline;
+    color:#D63231;
+    font-weight: 900;
+    margin-right: 50px;
+}
+
+.timetable-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 10vh auto;
+    overflow-x: auto;
+}
+
+.timetable-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.timetable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.timetable th,
+.timetable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.timetable th {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+.timetable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.timetable tr:hover {
+    background-color: #ddd;
+}
+
+.timetable th:first-child,
+.timetable td:first-child {
+    text-align: left;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+#menu_list{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu_list li{
+    margin-right: 20px;
+}
+
+body{
+    background-color: hsl(0, 74%, 94%);
+    margin: 0;
+    padding: 0;
+}
